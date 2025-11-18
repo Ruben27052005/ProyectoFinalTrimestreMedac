@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Gestión;
 
 import Vistas.Gestión.VLoginPeluqueras;
 import Vistas.Gestión.VMenu;

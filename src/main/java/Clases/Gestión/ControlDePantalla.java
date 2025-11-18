@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Gestión;
 
 import java.awt.Color;
 import javax.swing.JComboBox;

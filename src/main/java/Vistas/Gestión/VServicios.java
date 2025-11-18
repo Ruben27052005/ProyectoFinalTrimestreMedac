@@ -4,7 +4,7 @@
  */
 package Vistas.Gestión;
 
-import Clases.Servicios;
+import Clases.Gestión.Servicios;
 
 /**
  *

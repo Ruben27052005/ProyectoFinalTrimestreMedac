@@ -4,7 +4,7 @@
  */
 package Vistas.Gestión;
 
-import Clases.Peluqueras;
+import Clases.Gestión.Peluqueras;
 
 
 

@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Gestión;
 
 import java.math.BigDecimal;
 import java.sql.*;

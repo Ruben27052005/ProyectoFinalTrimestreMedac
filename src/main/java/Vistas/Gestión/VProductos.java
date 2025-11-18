@@ -4,7 +4,7 @@
  */
 package Vistas.Gestión;
 
-import Clases.Productos;
+import Clases.Gestión.Productos;
 import javax.swing.JTable;
 
 /**

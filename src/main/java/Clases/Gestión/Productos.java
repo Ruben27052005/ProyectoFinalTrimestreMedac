@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Gestión;
 
 import java.sql.CallableStatement;
 import java.sql.PreparedStatement;
