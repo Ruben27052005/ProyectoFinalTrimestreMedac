@@ -18,6 +18,7 @@ PracticaInterfaces\VLoginPeluqueras.class
 PracticaInterfaces\VClientes$2.class
 PracticaInterfaces\VLoginPeluqueras$3.class
 PracticaInterfaces\VProductos$1.class
+PracticaInterfaces\VCitas$1.class
 PracticaInterfaces\Main.class
 PracticaInterfaces\VProductos$3.class
 PracticaInterfaces\VPeluqueras$5.class
@@ -29,14 +30,18 @@ PracticaPsp\Main.class
 PracticaInterfaces\VClientes$8.class
 PracticaInterfaces\VServicios$2.class
 PracticaInterfaces\VProductos$2.class
+PracticaInterfaces\VServicios$11.class
 PracticaInterfaces\Clientes.class
 PracticaInterfaces\VServicios$9.class
 PracticaInterfaces\VDatosImportantes.class
+PracticaInterfaces\VCitas$2.class
+PracticaInterfaces\ControlDePantalla.class
 PracticaInterfaces\VClientes$1.class
 PracticaAccesoaDatos\Main.class
 PracticaInterfaces\ConexionBD.class
 PracticaInterfaces\DatosImportantes.class
 PracticaInterfaces\VClientes$4.class
+PracticaInterfaces\VMenu$6.class
 PracticaInterfaces\VClientes$11.class
 PracticaInterfaces\VPeluqueras$3.class
 PracticaInterfaces\VClientes.class
@@ -48,6 +53,7 @@ PracticaInterfaces\VClientes$10.class
 PracticaInterfaces\VServicios$10.class
 PracticaInterfaces\VMenu.class
 ConexionBD.class
+PracticaInterfaces\VDatosImportantes$1.class
 PracticaInterfaces\VServicios$1.class
 PracticaInterfaces\VClientes$9.class
 PracticaInterfaces\VMenu$5.class
@@ -57,5 +63,6 @@ PracticaInterfaces\Productos.class
 PracticaInterfaces\VProductos$5.class
 PracticaInterfaces\VLoginPeluqueras$1.class
 PracticaInterfaces\VMenu$2.class
+PracticaInterfaces\VCitas.class
 PracticaInterfaces\VClientes$3.class
 PracticaInterfaces\VServicios$8.class

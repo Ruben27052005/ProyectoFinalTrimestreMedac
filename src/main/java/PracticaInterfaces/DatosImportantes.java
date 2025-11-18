@@ -36,7 +36,7 @@ public class DatosImportantes {
             while (rs.next()) {
                 Object[] fila = new Object[6];
                 fila[0] = rs.getInt("id_servicio");
-                fila[1] = rs.getString("nombre");
+                fila[1] = rs.getString("nombre_servicio");
                 fila[2] = rs.getBigDecimal("precio");
                 fila[3] = rs.getString("duracion_media");
                 fila[4] = rs.getBoolean("producto_especifico") ? "Sí" : "No";

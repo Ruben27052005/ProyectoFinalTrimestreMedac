@@ -159,6 +159,11 @@ public class VServicios extends javax.swing.JFrame {
         jLabel6.setText("Producto Específico:");
 
         productoEspecifico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Sí", "No" }));
+        productoEspecifico.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                productoEspecificoItemStateChanged(evt);
+            }
+        });
         productoEspecifico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 productoEspecificoActionPerformed(evt);
@@ -328,13 +333,17 @@ public class VServicios extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        Productos objetoProductos = new Productos();
-        objetoProductos.eliminarProducto(idServicio, tbListaServicios);
-        idServicio.setText("");
-        nombreServicio.setText("");
-        precioServicio.setText("");
-        DuracionMediaServicio.setText("");
-        tipoServicio.setText("");
+                                            
+    Servicios servicio = new Servicios(); // Usamos la clase Servicios
+    servicio.eliminarServicio(tbListaServicios);
+
+    // Limpiar campos
+    idServicio.setText("");
+    nombreServicio.setText("");
+    precioServicio.setText("");
+    DuracionMediaServicio.setText("");
+    tipoServicio.setText("");
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void precioServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_precioServicioActionPerformed
@@ -350,6 +359,10 @@ public class VServicios extends javax.swing.JFrame {
          Servicios servicios = new Servicios();
        servicios.seleccionarServicio(tbListaServicios, idServicio, nombreServicio, precioServicio, DuracionMediaServicio, productoEspecifico, tipoServicio);
     }//GEN-LAST:event_tbListaServiciosMouseClicked
+
+    private void productoEspecificoItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_productoEspecificoItemStateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_productoEspecificoItemStateChanged
 
     /**
      * @param args the command line arguments
